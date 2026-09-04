@@ -5,18 +5,20 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #ffffe0; /* Nền vàng sáng */
+    color: #000000;
 }
 
 header {
-    background-color: #ffffff;
-    color: #111111;
+    background-color: #000080; /* Nền xanh dương đậm */
+    color: #ffffff; /* Chữ trắng */
     padding: 20px;
     text-align: center;
 }
 
 nav {
-    background-color: #111111;
-    color: #ffffff;
+    background-color: #8b0000; /* Nền đỏ đậm */
+    color: #ffffff; /* Chữ trắng */
     padding: 10px;
     text-align: center;
     display: inline-block;
@@ -35,8 +37,8 @@ nav img {
 }
 
 main {
-    background-color: #ffffff;
-    color: #111111;
+    background-color: #ffffe0;
+    color: #000000;
     font-size: 18px;
     padding: 30px;
     flex: 1;
@@ -64,8 +66,8 @@ main {
 }
 
 footer {
-    background-color: #111111;
-    color: #ffffff;
+    background-color: #000000; /* Nền đen tuyền */
+    color: #00ff00; /* Chữ xanh lá sáng */
     text-align: center;
     padding: 15px;
 }
@@ -73,15 +75,23 @@ footer {
 h1 {
     text-align: center;
     font-family: "Times New Roman", Times, serif;
-    color: #003366;
+    color: #ffffff;
     margin-top: 0;
 }
 
 h2 {
-    color: #111111;
+    color: #8b0000;
 }
 
 p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+a {
+    color: #0000ff; 
+}
     line-height: 1.6;
     margin-bottom: 15px;
     color: #111111;
