@@ -8,14 +8,14 @@ body {
 }
 
 header {
-    background-color: #f1f1f1;
-    color: #111111; /* Đảm bảo chữ ở header đủ độ đậm để không bị lỗi tương phản */
+    background-color: #ffffff;
+    color: #111111;
     padding: 20px;
     text-align: center;
 }
 
 nav {
-    background-color: #222222; /* Dùng màu tối hẳn để tăng độ tương phản với chữ trắng */
+    background-color: #111111;
     color: #ffffff;
     padding: 10px;
     text-align: center;
@@ -64,8 +64,8 @@ main {
 }
 
 footer {
-    background-color: #111111; /* Nền tối đậm */
-    color: #ffffff; /* Đổi thành chữ trắng tinh để đạt độ tương phản tối đa */
+    background-color: #111111;
+    color: #ffffff;
     text-align: center;
     padding: 15px;
 }
@@ -73,15 +73,16 @@ footer {
 h1 {
     text-align: center;
     font-family: "Times New Roman", Times, serif;
-    color: #004085; /* Dùng xanh đậm hơn để chống lỗi tương phản */
+    color: #003366;
     margin-top: 0;
 }
 
 h2 {
-    color: #222222;
+    color: #111111;
 }
 
 p {
     line-height: 1.6;
     margin-bottom: 15px;
+    color: #111111;
 }
