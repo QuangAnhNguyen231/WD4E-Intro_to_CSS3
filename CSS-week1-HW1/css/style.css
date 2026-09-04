@@ -5,20 +5,20 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #ffffe0; /* Nền vàng sáng */
+    background-color: #ffffe0;
     color: #000000;
 }
 
 header {
-    background-color: #000080; /* Nền xanh dương đậm */
-    color: #ffffff; /* Chữ trắng */
+    background-color: #000080;
+    color: #ffffff;
     padding: 20px;
     text-align: center;
 }
 
 nav {
-    background-color: #8b0000; /* Nền đỏ đậm */
-    color: #ffffff; /* Chữ trắng */
+    background-color: #8b0000;
+    color: #ffffff;
     padding: 10px;
     text-align: center;
     display: inline-block;
@@ -30,6 +30,17 @@ nav ul {
     padding: 0;
     list-style-type: none;
     display: inline-block;
+}
+
+/* Thêm màu chữ trắng cho các thẻ a trong nav để triệt tiêu lỗi tương phản */
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffeb3b;
+    text-decoration: underline;
 }
 
 nav img {
@@ -66,8 +77,8 @@ main {
 }
 
 footer {
-    background-color: #000000; /* Nền đen tuyền */
-    color: #00ff00; /* Chữ xanh lá sáng */
+    background-color: #000000;
+    color: #00ff00;
     text-align: center;
     padding: 15px;
 }
@@ -90,7 +101,7 @@ p {
 }
 
 a {
-    color: #0000ff; 
+    color: #0000ff;
 }
     line-height: 1.6;
     margin-bottom: 15px;
