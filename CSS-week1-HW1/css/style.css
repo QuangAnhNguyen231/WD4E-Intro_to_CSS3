@@ -1,8 +1,4 @@
-body{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 150%;
-  header {
-   body {
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     margin: 0;
@@ -22,6 +18,8 @@ nav {
     color: white;
     padding: 10px;
     text-align: center;
+    display: inline-block;
+    width: 80%;
 }
 
 nav ul {
@@ -31,25 +29,8 @@ nav ul {
     display: inline-block;
 }
 
-li {
-    display: inline-block;
-    width: 150px;
-    margin: 0 5px;
-    vertical-align: top;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    padding: 15px 0;
-    background-color: #444;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-li a:hover {
-    background-color: #0056b3;
+nav img {
+    width: 10%;
 }
 
 main {
@@ -60,6 +41,108 @@ main {
     max-width: 960px;
     margin: 0 auto;
     box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.grid img {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: #222222;
+    color: #ccc;
+    text-align: center;
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    color: #0056b3;
+    margin-top: 0;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #333333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 80%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav img {
+    width: 10%;
+}
+
+main {
+    background-color: #ffffff;
+    font-size: 18px;
+    padding: 30px;
+    flex: 1;
+    max-width: 960px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.grid img {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 footer {
